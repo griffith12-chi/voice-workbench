@@ -1,0 +1,31 @@
+# Git 忽略规则
+
+# 运行环境与大文件（不进仓库）
+RVC/
+*.pth
+*.pt
+*.index
+*.onnx
+
+# 输出
+outputs/
+输出/
+*.wav
+*.mp3
+
+# 日志
+*.log
+错误.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 系统
+Thumbs.db
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
